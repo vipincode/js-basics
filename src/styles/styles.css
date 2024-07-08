@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #42c;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 12px 0;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.26);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 12px 0;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
