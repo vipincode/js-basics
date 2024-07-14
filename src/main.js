@@ -1,9 +1,3 @@
-let name = 'abc';
+let array = [10, 20, 30, 40, 50];
 
-function Name() {
-  let name = 'pqr';
-
-  return name;
-}
-
-console.log(Name());
+console.log(array.indexOf(30, -3));
