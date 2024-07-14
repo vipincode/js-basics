@@ -1,3 +1,3 @@
-let array = [10, 20, 30, 40, 50];
-
-console.log(array.indexOf(30, -3));
+let numbers = [40, 100, 1, 5, 25, 10];
+numbers.sort();
+console.log(numbers); // Output: [1, 10, 100, 25, 40, 5]
