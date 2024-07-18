@@ -1,3 +1,5 @@
-let numbers = [40, 100, 1, 5, 25, 10];
-numbers.sort();
-console.log(numbers); // Output: [1, 10, 100, 25, 40, 5]
+const countries = ['Nigeria', 'UK', 'Netherlands', 'Canada', 'USA', 'Norway'];
+
+const countriesThatStartWithN = countries.filter((country) => !country.startsWith('N'));
+
+console.log(countriesThatStartWithN);
